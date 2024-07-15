@@ -26,8 +26,12 @@ export default function App() {
 
   const handkeSongSelected = async (song) => {
     setSelectedSong(song);
-    audioRef.current.src = song.preview_url;
-    playSong();
+    if (song.preview_url) {
+      audioRef.current.src = song.preview_url;
+      playSong();
+    } else {
+      pauseSong();
+    }
   };
 
   const playSong = () => {
