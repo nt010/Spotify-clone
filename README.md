@@ -1,5 +1,7 @@
 # Spotify apiを用いたクローンアプリです
 
+![image](https://github.com/user-attachments/assets/60937a91-971d-43b9-adc9-d126f9e9a204)
+
 
 # Getting Started with Create React App
 
